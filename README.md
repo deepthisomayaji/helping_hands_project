@@ -1,1 +1,5 @@
 # helping_hands_project
+This project aims to develop software designed to assist shops or offices during peak hours by connecting them with individuals available to provide support during these busy periods.
+
+This Python code creates a SQLite database named 'hh.db' and defines three tables ('Employee', 'AssistanceRequest', and 'Shop') to manage information about employees, assistance requests, and shops. The program also includes a class 'Employee' with methods to save employee details to the database, functions to handle assistance requests, and interactive front-end functions for both users and administrators. The main function runs a menu-driven system allowing users to offer assistance, view and modify their requests, or cancel them. Administrators can view all assistance requests, grant assistance based on matching criteria, create shop entries, and view shop details. The code incorporates error handling and regex-based contact validation. The program runs until the user decides to exit, and the SQLite connection is closed at the end.
+
